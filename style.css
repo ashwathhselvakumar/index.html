@@ -221,3 +221,76 @@ body{
         flex-direction:column;
     }
 }
+/* WHITE THEME OVERRIDE */
+
+body{
+    background:#ffffff !important;
+}
+
+.background-animation{
+    display:none;
+}
+
+.login-container{
+    background:#ffffff !important;
+    border:1px solid #e5e5e5;
+    box-shadow:0 10px 30px rgba(0,0,0,0.12);
+}
+
+.logo-section h1,
+.logo-section h2{
+    color:#222 !important;
+}
+
+.input-group i{
+    color:#555 !important;
+}
+
+.input-group input{
+    background:#f8f8f8;
+    border:1px solid #ddd;
+    color:#222;
+}
+
+.input-group input:focus{
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+
+.options{
+    color:#333 !important;
+}
+
+.options a{
+    color:#444 !important;
+}
+
+.options a:hover{
+    color:#000 !important;
+}
+
+.login-btn{
+    background:#ffffff !important;
+    color:#222 !important;
+    border:1px solid #ccc;
+}
+
+.login-btn:hover{
+    background:#f5f5f5 !important;
+}
+
+.create-btn{
+    background:#ffffff !important;
+    color:#222 !important;
+    border:1px solid #ccc;
+}
+
+.help-btn{
+    background:#ffffff !important;
+    color:#222 !important;
+    border:1px solid #ccc;
+}
+
+.create-btn:hover,
+.help-btn:hover{
+    background:#f5f5f5 !important;
+}
